@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style1.css">
+  
+</head>
+
+<body>
+
+  <form id="form" onsubmit="return false">
+
+    <p>
+      Ignore:
+      <label>
+        <input type="checkbox" name="keydownIgnore" value="1"> keydown</label>&nbsp;&nbsp;&nbsp;
+      <label>
+        <input type="checkbox" name="keyupIgnore" value="1"> keyup</label>
+    </p>
+
+    <p>Focus on the input field and press a key.</p>
+
+    <input type="text" placeholder="keys here" id="kinput">
+
+    <textarea id="area" readonly></textarea>
+    <input type="button" value="Clear" onclick="area.value = ''" />
+  </form>
+  <script src="script1.js"></script>
+
+
+</body>
+</html>
