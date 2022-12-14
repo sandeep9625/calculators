@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image</title>
+    <style>
+        body{
+    margin: 0px;
+    padding: 0px;
+}
+.a{
+    border: 0px solid black;
+    animation-name: hell;
+    animation-duration: 1s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    color: white;
+    padding: 20px;
+    font-size: xx-large;
+}
+@keyframes hell {
+    from{
+        background-color: black;
+        
+    }
+    to{
+        background-color: grey;
+    }
+}
+
+.b{
+    border: 5px solid black;
+    animation-name: heven;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    position: relative;
+    animation-direction: alternate;
+    color: white;
+    padding: 20px;
+    
+}
+@keyframes heven {
+    from{
+        background-color: chartreuse;
+        
+    }
+    to{
+        background-color: orange ;
+    }
+}
+.c1{
+    background-color: black;
+    color: white;
+    
+}
+.c2{
+    animation-name: work;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate-reverse;
+    background-size:cover;
+    height: 300px;
+    width: 400px;
+}
+@keyframes work{
+    from{
+        background-image: url(07.jpg);
+    }
+    to{
+        background-image: url(09.jpg);
+    }
+}
+.d1{
+    background-color: black;
+    color: white;
+    
+}
+.d2{
+    animation-name: lucy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate-reverse;
+    height: 300px;
+    width: 550px;
+    background-size: cover;
+}
+@keyframes lucy{
+    from{
+        background-image: url(04.jpg);
+    }
+    to{
+        background-image: url(06.jpg);
+    }
+}
+.c{
+    float: left;
+    padding-left: 100px;
+}
+.d{
+    float: right;
+    padding-right: 10px;
+    
+}
+a{
+    color: black;
+}
+.e1{
+    background-color: black;
+    color: white;
+}
+.e2{
+    animation-name: deal;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+    height: 400px;
+    width: 750px;
+    background-size: cover;
+}
+@keyframes deal{
+    from{
+        background-image: url(07.jpg);
+    }
+    to{
+        background-image: url(08.jpg);
+    }
+}
+.f {
+
+    background-color: black;
+    float: left;
+    font-size: 50px;
+    width: 97%;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.container{
+    background-color: red;
+    height: 1230px;
+    width: 100%;
+    animation-name: busy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+@keyframes busy{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: red;
+}
+}
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <div class="a">
+            <h1>
+                <marquee direction="left"> <i> SANDEEP KUMAR </i></marquee>
+            </h1>
+        </div>
+
+        <div class="b">
+            <marquee direction="right"> Home About Contact Service</marquee>
+        </div>
+
+        <div class="container">
+            <div class="c">
+                <h2> <i> ABOUT ME </i></h2>
+                <p class="c1"> Photo of me:</p>
+                <p class="c2"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Vitae iure sint quam tempora quas vel.
+                </p>
+                <h2> <i> Some Links </i></h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h3>
+                    <a href="#"> LINK</a>
+                    <br>
+                    <a href="#"> LINK</a>
+                    <br>
+                    <a href="#"> LINK</a>
+                    <br>
+                    <a href="#"> LINK</a>
+                </h3>
+            </div>
+
+            <div class="d">
+                <h2> <i> TITLE </i></h2>
+                <p class="d1"> Title description, Dec 7, 2020</p>
+                <p class="d2"></p>
+                <p>Some Text......</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, ea explicabo assumenda eaque ullambr
+                    <br>
+                    voluptate saepe consectetur delectus odio, deserunt blanditiis nam dolores eveniet iste
+                    reprehenderit
+                    <br>
+                    tenetur fuga doloremque consequatur.
+                </p>
+                <div class="e">
+                    <h2> <i> SERVICES </i></h2>
+                    <p class="e1"> Title description, Sep 2, 2020</p>
+                    <p class="e2"></p>
+                    <p>Some Text......</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis mollitia, rem animi culpa modi <br>
+                        magni fugiat, sunt eius officiis cumque provident! Dolor aut dolorem, ea delectus rerum ipsam
+                        <br>
+                        non recusandae.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="f">FOOTER</div>
+
+</body>
+
+</html
