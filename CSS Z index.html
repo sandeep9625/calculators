@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: red;
+        }
+        .container{
+            position: relative;
+        }
+        .black-box{
+            position: relative;
+            z-index: 0;
+            border: 5px solid white;
+            height: 100px;
+            margin: 30px;
+            background: black;
+            color: white;
+            top: 100;
+        }
+
+        .gray-box{
+            position: absolute;
+            z-index:2 ;
+            background: lightgray;
+            height: 60px;
+            width: 70%;
+            left: 50px;
+            top: 100px;
+
+        }
+        .green-box{
+            position: absolute;
+            z-index: 3;
+            background: green;
+            width: 35%;
+            left: 270px;
+            height: 100px;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="black-box"> Black box</div>
+        <div class="gray-box">Gray box</div>
+        <div class="green-box">Green box</div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation</title>
+    <style>
+        p{ 
+            background: red;
+            height: 300px;
+            width: 500px;
+            animation-name: luck;
+            animation-duration: 2s;
+            position: relative;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+            animation-direction: alternate;
+        }
+
+        @keyframes luck{
+            /* from{
+                background-color: red;
+            }
+            to{
+                background-color: greenyellow;
+            } */
+
+            0%{
+                background-image: url(21.jpg);
+                left: 0px;
+                top: 0px;
+                
+            }
+            25%{
+                background-image: url(23.jpg);
+                
+                left: 200px;
+                top: 0px;
+                
+
+            }
+            
+            50%{
+                background-color:blue;
+                left: 200px;
+                top: 200px;
+               
+            }
+            
+            75%{
+                background-color:purple;
+                left: 0px;
+                top: 200px;
+                
+            }
+            
+            100%{
+                background-color:lawngreen;
+                left: 0px;
+                top: 0px;
+               
+            
+            }
+        }
+    </style>
+</head>
+<body>
+    <p></p>
+    
+</body>
+</html>
