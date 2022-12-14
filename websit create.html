@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <style>
+        body {
+            margin: 5px;
+        }
+
+        .a {
+            border: 5px dashed black;
+            background-color: red;
+            width: 48%;
+            border-radius: 10px;
+            font-size: large;
+            height: 70px;
+
+        }
+        .dc{
+            border: 5px dashed black;
+            background-color: red;
+            width: 48%;
+            border-radius: 10px;
+            font-size: large;
+            height: 70px;
+        }
+
+        input[type=email] {
+            width: 95%;
+            border-radius: 100px;
+            background-color: palegoldenrod;
+            margin-top: 15px;
+        }
+        input[type=search]{
+            width: 95%;
+            border-radius: 100px;
+            background-color: palegoldenrod;
+            margin-top: 15px;
+        }
+
+        input[type=password] {
+            border-radius: 50px;
+            width: 95%;
+            background-color: palegoldenrod;
+            margin-top: 15px;
+        }
+
+        .b {
+            border: 5px double black;
+            background-color: palevioletred;
+            width: 99%;
+            border-radius: 10px;
+            font-size: large;
+            height: 70px;
+
+        }
+
+        input[type=text] {
+            border-radius: 50px;
+            width: 99%;
+            background-color: palegoldenrod;
+            margin-top: 15px;
+        }
+
+        .c {
+            border: 5px dotted black;
+            background-color: skyblue;
+            width: 29%;
+            border-radius: 10px;
+            font-size: large;
+            float: right;
+            height: 70px;
+        }
+
+        .d {
+            border: 2px solid black;
+            background-color: chartreuse;
+            width: 90%;
+            border-radius: 10px;
+            margin-top: 15px;
+            
+        }
+
+        .e {
+           
+            border: 5px dashed black;
+            background-color: red;
+            width: 49%;
+            border-radius: 10px;
+            font-size: large;
+            height: 70px;
+        }
+
+        input[type=tel] {
+            width: 80%;
+            border-radius: 50px;
+            margin-left: 15px;
+            background-color: palegoldenrod;
+            margin-top: 15px;
+        }
+
+        .f {
+            border: 5px double black;
+            background-color: palevioletred;
+            width: 99%;
+            border-radius: 10px;
+            font-size: large;
+            height: 70px;
+            /* padding-top: 20px; */
+        }
+
+        .g {
+            border: 5px solid black;
+            background-color: aqua;
+            width: 20%;
+            border-radius: 10px;
+            font-size: large;
+            height: 70px;
+
+        }
+        button{
+            margin: 10px;
+            background-color: red;
+            padding-top: 10px;
+            border: 3px solid black;
+            font-size: large;
+        }
+        button:hover{
+            background-color: blueviolet;
+        }
+        label{
+           
+            background-color: red;
+            margin-left: 30px;
+            border: 3px solid black;
+            font-size: large;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body style="background-color: grey">
+    <form action="">
+        <div class="a" style="float: left">
+            EMAIL ID: <br> <input type="email">
+        </div>
+        <div class="dc" style="float: right">
+            PASSWORD: <br> <input type="password">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="b">
+            ADDRESS: <br> <input type="text" name="address">
+        </div>
+        <br>
+        <br>
+        <div class="b">
+            ADDRESS2: <br> <input type="text" name="address">
+        </div>
+        <br>
+        <br>
+        <div class="g" style="float: right">
+            PINCODE: <br> <input type="tel">
+        </div>
+        <div class="c">
+            CARS:
+            <br>
+            <select class="d">
+                <option> ROLLS ROYCE</option>
+                <option> WAGNOR </option>
+                <option> SCORPIO </option>
+                <option> SWIFT </option>
+                <option> JAGUAR </option>
+                <option> FORTUNER </option>
+            </select>
+        </div>
+        <div class="e">
+            CITY: <br><input type="search">
+        </div>
+        <br>
+        <div class="b">
+         
+           <input type="checkbox" id="box" > 
+           <br>
+        
+           <label for="box"> Check Me Out</label>
+        </div>
+        <br>
+        <div class="f" style="font-size: large">
+            <button>Sign in</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
